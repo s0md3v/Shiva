@@ -5,7 +5,7 @@ Shiva is designed to perform Denial Of Service (DOS) attack on wordpress sites b
 
 ### Awesomeness
 - Shiva uses multithreading to bring down websites as soon as possible,
-- You don't need to worry about your IP being exposed because Shiva uses [Profixy](https://github.com/UltimateHackers/proxify) to route all requests through random proxies which keep getting rotated automatically.
+- You don't need to worry about your IP being exposed because Shiva uses [Proxify](https://github.com/UltimateHackers/proxify) to route all requests through random proxies which keep getting rotated automatically.
 
 ### Dependencies & Compatibility
 Shiva is compatible with both python2 and python3.</br>
