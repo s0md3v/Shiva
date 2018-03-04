@@ -23,7 +23,7 @@ run = '\x1b[1;97m[~]\x1b[1;m'
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-u", help="target website", dest='target')
-parser.add_argument("--threads", metavar='-t', help="number of threads", dest='n', type=int)
+parser.add_argument("-t", help="number of threads", dest='n', type=int)
 args = parser.parse_args()
 
 
